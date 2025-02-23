@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<conio.h>
-#include<stdlib.h>
 void are_square(int s)
 {
 	printf("area of square= %d\n");
