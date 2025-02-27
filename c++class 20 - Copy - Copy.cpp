@@ -5,11 +5,9 @@
 #include<string.h>
 #include<stdlib.h>
 #include<iomanip>
-#include<windows.h> //  header file for gotoxy
+#include<windows.h> 
 using namespace std;
-COORD coord={0,0}; // this is global variable
-//center of axis is set to the top left cornor of the screen
-//gotoxy(column,row);
+COORD coord={0,0}; 
 void gotoxy(int x,int y)
 {
 	coord.X=x;
