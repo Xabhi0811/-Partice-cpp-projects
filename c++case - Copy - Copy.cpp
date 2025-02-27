@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class sum{
 	 private:
@@ -38,8 +38,8 @@ void sum::diff()
 		s.cal();
 		s.output();
 		return 0;
-}*/
-#include<iostream>
+}
+/*#include<iostream>
 using namespace std;
  class task{
  	private:
@@ -77,7 +77,7 @@ using namespace std;
    	t.cal();
    	return 0;
    }
-
+*/
 
 
 
