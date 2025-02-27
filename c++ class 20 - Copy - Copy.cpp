@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class example{
 	public:
@@ -14,7 +14,7 @@ int main(){
 	example e2;
 	cout<<"the number of object created is :"<<example::count<<endl;return 0;  
 }
-*/
+
 #include<iostream>
 using namespace std;
 class student
