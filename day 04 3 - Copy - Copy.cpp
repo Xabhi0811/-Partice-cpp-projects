@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main(){
 	int n,i,ans;
@@ -10,7 +10,7 @@ int main(){
 	 cout<<n<<" * "<<i<<" = "<<ans<<endl;}
 	 return 0;
 	
-}*/
+}
 
 /*#include<iostream>
 using namespace std;
