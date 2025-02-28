@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 int main (){
 	int d,w;
@@ -10,7 +10,7 @@ d=d%7;
 cout<<"enter any week"<<w<<endl<<"days is"<<d;
 return 0;
  
-}*/
+}
 /*#include<iostream>
 using namespace std;
 int main(){
