@@ -20,7 +20,7 @@ public:
 };
 
 int main() {
-    // Call the static member function directly without creating an object
+    
     Average::calculateAverage();
     return 0;
 }
