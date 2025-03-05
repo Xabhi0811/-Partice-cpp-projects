@@ -11,4 +11,5 @@ printf (" it is not  prime");
 break;}
 else 
 printf(" it is prime ");}
-  return 0;}
+  return 0;
+}
