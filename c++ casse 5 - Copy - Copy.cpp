@@ -14,8 +14,8 @@ class emp{
 			public:
 				void intput();
 				void output();
-				void total ();
-		};
+				void total ();   
+                           };
 };
 void emp::input()
 {
