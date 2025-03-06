@@ -4,8 +4,7 @@ using namespace std;
 int main(){
 	int n,i;
 	char ch;
-	do{
-		cout<<"enter total element";
+	do{  cout<<"enter total element";
 		cin>>n;
 		 int *p= new int[n];
 		if( p ==NULL)
