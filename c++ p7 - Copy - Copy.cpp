@@ -10,5 +10,6 @@ int main(){
 	cin>>name;
 	cout<<"enter per";
 	cin>>per;
+	
 	return 0;
 }
