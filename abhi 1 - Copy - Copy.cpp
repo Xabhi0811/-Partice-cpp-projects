@@ -12,7 +12,7 @@ int main()
 	scanf("%d %d",&a,&b);
 	c=a-b;
 	printf("difference of no= %d\n",c);
-} 
+} */
 
 #include<stdio.h>
 void add();
@@ -28,9 +28,9 @@ void add()
 	scanf("%d %d",&a,&b);
 	c=a*b;
 	printf("fuck off bitch this is your answer= %d",c);
-}*/
+}
 
-#include<stdio.h>
+/*#include<stdio.h>
 void average();
 int main(){
 	average();
@@ -46,7 +46,7 @@ int main(){
 		printf("sum of two num=%d",e);
 		printf("sum of d =%d",d);
 	}
-
+*/
 
 
 
