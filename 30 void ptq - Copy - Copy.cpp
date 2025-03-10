@@ -47,7 +47,6 @@ scanf("%d %d",&p,&q);
 permeter_rectangle(int p,int q)
 break ;
 
-
  
 }
 	
