@@ -6,7 +6,6 @@ int main (){
 for (i=2;n/i;){
 
 if(n==1){
-
 printf (" it is not  prime");
 break;}
 else 
