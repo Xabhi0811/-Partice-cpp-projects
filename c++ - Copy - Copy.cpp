@@ -10,6 +10,7 @@ int main(){
 		cout<<"invalid amt";
 		
 	}
+	
 	 2k=a/2k;
     	a=a%2k;
 	1k=a/1k;
