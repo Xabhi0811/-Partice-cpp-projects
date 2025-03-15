@@ -21,6 +21,7 @@ void sum:: output()
  void sum:: cal()
  {
  	c=a+b;
+	 
  }
  int main(){
  	sum s;
