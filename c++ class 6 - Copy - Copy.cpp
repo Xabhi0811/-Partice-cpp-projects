@@ -16,7 +16,7 @@ class emp{
 		      			void input();
 		      			void output();
 		      			void cal();
-		      			
+		
 		      		
 			 };
                 };
