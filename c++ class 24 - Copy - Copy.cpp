@@ -14,8 +14,8 @@ int main()
   cout<<"3. float "<<sizeof(e)<<","<<sizeof(fp)<<endl;
   cout<<"4. double "<<sizeof(d)<<","<<sizeof(dp)<<endl;
 
-  cout<<"5. int "<<sizeof(*ip)<<endl; //int 4
-  cout<<"6. char "<<sizeof(*cp)<<endl; //char 1
+  cout<<"5. int "<<sizeof(*ip)<<endl; 
+  cout<<"6. char "<<sizeof(*cp)<<endl; 
   cout<<"7. float "<<sizeof(*fp)<<endl; //float 4
   cout<<"8. double "<<sizeof(*dp)<<endl;//double 8
   getch();
