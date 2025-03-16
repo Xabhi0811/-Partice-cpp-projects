@@ -16,7 +16,7 @@ int main()
 
   cout<<"5. int "<<sizeof(*ip)<<endl; 
   cout<<"6. char "<<sizeof(*cp)<<endl; 
-  cout<<"7. float "<<sizeof(*fp)<<endl; //float 4
+  cout<<"7. float "<<sizeof(*fp)<<endl; 
   cout<<"8. double "<<sizeof(*dp)<<endl;
   getch();
   return 0 ;}
