@@ -1,4 +1,4 @@
-/* to display size of datatype and pointer variable */
+
 #include<iostream>
 #include<conio.h>
 using namespace std;
