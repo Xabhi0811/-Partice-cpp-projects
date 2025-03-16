@@ -11,8 +11,8 @@ int main()
   ip=&a;   cp=&c;   fp=&e;   dp=&d;
   cout<<"1. int "<<sizeof(a)<<","<<sizeof(ip)<<endl;
   cout<<"2. char "<<sizeof(c)<<","<<sizeof(cp)<<endl;
-  cout<<"3. float "<<sizeof(e)<<","<<sizeof(fp)<<endl;//4 8
-  cout<<"4. double "<<sizeof(d)<<","<<sizeof(dp)<<endl;//8 8
+  cout<<"3. float "<<sizeof(e)<<","<<sizeof(fp)<<endl;
+  cout<<"4. double "<<sizeof(d)<<","<<sizeof(dp)<<endl;
 
   cout<<"5. int "<<sizeof(*ip)<<endl; //int 4
   cout<<"6. char "<<sizeof(*cp)<<endl; //char 1
