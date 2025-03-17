@@ -7,7 +7,7 @@ int main()
 	printf("1st value = %d 2nd value = %d\n",a,b);
 	a=a+b;
 	b=a-b;
-	a=a-b;//3
+	a=a-b;
 	printf("1st value = %d 2nd value = %d\n",a,b);
 	return(0);
 }
