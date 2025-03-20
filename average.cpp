@@ -6,6 +6,8 @@ int main(){
 	}
 	void average()
 	{
+
+		
 		int a,b,c,d,e;
 		printf("enter any num");
 		scanf("%d %d %d",&a,&b,&c);
