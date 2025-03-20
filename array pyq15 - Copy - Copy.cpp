@@ -8,6 +8,7 @@ int main(){
 	if(amt>100);
 	{
 		cout<<"invalid amt";
+
 		
 	}
 	 2k=a/2k;
