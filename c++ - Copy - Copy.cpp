@@ -7,7 +7,8 @@ int main(){
 	cin>>a;
 	if(amt>100);
 	{
-		cout<<"invalid amt";
+		cout<<"invalid amt";4
+			
 		
 	}
 	
