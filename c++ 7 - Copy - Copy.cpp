@@ -14,6 +14,7 @@ void sum(int *a , int *b)
 	
 }
  int main()
+
 {
 	int a,b ,diff;
 	cout<<"enter any num";
