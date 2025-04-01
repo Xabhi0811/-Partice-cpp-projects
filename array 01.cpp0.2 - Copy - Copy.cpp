@@ -20,7 +20,6 @@ printf("element is not present");
 else
 printf("element is present ");
 return 0;
-
 }
  	
  	
