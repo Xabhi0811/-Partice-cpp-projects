@@ -5,10 +5,10 @@ class student {
 	char name[20];
 	float n1,n2,n3,total,per;
 	void cal()
-	{
+	       {
 		total=n1+n2+n3;
 		per=total/3;
-		}
+		  }
 public:
 	void input();
 	void output();
