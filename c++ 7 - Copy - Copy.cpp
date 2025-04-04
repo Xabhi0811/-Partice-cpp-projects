@@ -10,8 +10,6 @@ void sum(int *a , int *b)
 	{ 
 	diff = -1*diff;
 	}
-
-	
 }
  int main()
 
