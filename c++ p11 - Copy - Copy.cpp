@@ -11,7 +11,7 @@ using namespace std;
 	
 	cout<<j;
 }
-cout<<endl;	
+    cout<<endl;	
 	
 }
 	return 0;
