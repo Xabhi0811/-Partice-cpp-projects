@@ -37,6 +37,7 @@ student::student()
 }
 student::student(int r,char n[],float p)
 {
+	
 	roll=r;
 	strcpy(name,n);
 	per=p;
