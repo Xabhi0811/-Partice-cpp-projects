@@ -19,8 +19,8 @@ void sum(int *a , int *b)
 	cin>>a >>b;
 	sum(&a,&b);
 	cout<<"sum"<<a<<endl;
-		if(diff<0)
-	{ 
+	
+	if(diff<0){
 	diff = -1*diff;
 	
 	}
