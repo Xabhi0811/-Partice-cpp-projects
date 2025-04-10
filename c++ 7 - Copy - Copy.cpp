@@ -20,7 +20,6 @@ void sum(int *a , int *b)
 	sum(&a,&b);
 	cout<<"sum"<<a<<endl;
 
-	
 		if(diff<0)
 	{ 
 	diff = -1*diff;
