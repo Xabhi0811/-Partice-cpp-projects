@@ -27,5 +27,4 @@ void sum(int *a , int *b)
 	
 	cout<<"differnec"<<b<<endl;
 	return 0;
-	
-}
+	}
