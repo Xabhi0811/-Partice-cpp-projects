@@ -12,7 +12,7 @@ int main(){
 	return 0;
 }*/
  
-/* #include<iostream>
+ #include<iostream>
  using namespace std;
  int main(){
  	cout<<"number now are you"<<endl;
@@ -23,17 +23,5 @@ int main(){
  	clog<<"all the best for your future"<<endl;
  	cout<<"keep away from error"<<endl;
  	return 0;
- }*/
- 
- #include<iostream>
- # include<iomanip>
- using namespace std;
- int main(){
- 	int a=100;
- 	 	cout<<setfill('*');
-
- 	cout<<setw(52)<<a<<endl;
- //	cout<<setfill('*');
- 	return 0;
- 	
  }
+ 
