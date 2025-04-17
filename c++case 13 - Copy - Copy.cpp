@@ -7,7 +7,7 @@ class dist{
 			void read();
 			void show();
 			dist add(dist d);
-};
+                      };
 void dist::read()
 {
 	cout<<"enter feet and inches";
