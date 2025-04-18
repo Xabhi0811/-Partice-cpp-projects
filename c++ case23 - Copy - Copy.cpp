@@ -7,4 +7,4 @@ int main(){
 	cout<<sizeof(p)<<endl;
 	cout<<&a<<endl;
 	return 0;
-}
+ }
