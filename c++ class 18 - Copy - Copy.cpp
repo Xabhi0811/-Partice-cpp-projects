@@ -39,7 +39,6 @@ void cal(student1 A student2 b )
 }
 int main()
 {  
-	
 	student1 s1;
 	student2 s2;
 	s1.input();s2.input();
