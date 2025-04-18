@@ -1,7 +1,7 @@
 #include<stdio.h>
 void difference();
 int main()
-{
+{         
 	difference();
 	return 0;
 }
