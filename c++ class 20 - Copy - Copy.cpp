@@ -5,7 +5,6 @@ class example{
 		static int count ;
 		example(){
 			count++;
-			
 		}
 };
 int example::count=0;
