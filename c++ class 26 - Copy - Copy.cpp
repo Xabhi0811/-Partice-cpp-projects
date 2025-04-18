@@ -5,7 +5,7 @@ int main()
   int a=10;
   int *p;
   p=&a;
-  cout<<a<<endl;   //value of a
+  cout<<a<<endl;   
   cout<<&a<<endl;  //address of a
   cout<<*(&a)<<endl;  //value at address of a
   cout<<p<<endl;   //address of a which is stored in p
