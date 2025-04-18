@@ -10,7 +10,7 @@ using namespace std;
 	{
 	
 	cout<<j;
-}
+       }
     cout<<endl;	
 	
 }
