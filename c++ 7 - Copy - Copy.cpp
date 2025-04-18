@@ -22,7 +22,7 @@ void sum(int *a , int *b)
 	
 	if(diff<0){
 	diff = -1*diff;
-
+  
 	}
 	
 	cout<<"differnec"<<b<<endl;
