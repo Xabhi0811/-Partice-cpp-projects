@@ -10,7 +10,7 @@ class std{
 	 	
 	 	class emp{
 	 		private:
-	 			int net;
+	 		int net;
 	 		float sal,hsal,bsal,pf;
 	 		public:
 	 			void input();
