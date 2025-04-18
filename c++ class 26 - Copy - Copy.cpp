@@ -8,7 +8,7 @@ int main()
   cout<<a<<endl;   
   cout<<&a<<endl;  
   cout<<*(&a)<<endl;  //value at address of a
-  cout<<p<<endl;   //address of a which is stored in p
+  cout<<p<<endl;   
   cout<<*p<<endl;
   cout<<&p<<endl; //address of p
   cout<<*(&p)<<endl;
