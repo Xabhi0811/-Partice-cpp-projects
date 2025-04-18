@@ -7,7 +7,7 @@ int main()
   p=&a;
   cout<<a<<endl;   
   cout<<&a<<endl;  
-  cout<<*(&a)<<endl;  //value at address of a
+  cout<<*(&a)<<endl; 
   cout<<p<<endl;   
   cout<<*p<<endl;
   cout<<&p<<endl; 
