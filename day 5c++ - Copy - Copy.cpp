@@ -69,8 +69,6 @@ int main() {
 using namespace std;
 
 bool isLeapYear(int year) {
-    // Leap year is divisible by 4
-    // If divisible by 100, it should also be divisible by 400
     if (year % 4 == 0) {
         if (year % 100 == 0) {
             if (year % 400 == 0)
