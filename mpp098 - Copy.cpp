@@ -1,6 +1,6 @@
 //C++ Function Overriding
 /*
-If derived class defines same function as defined in its 
+s 
 
 
 
