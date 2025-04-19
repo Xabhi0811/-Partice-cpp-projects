@@ -1,10 +1,3 @@
-//C++ Function Overriding
-/*
-s 
-
-
-
-
 
 #include <iostream>  
 using namespace std;  
