@@ -16,7 +16,7 @@ class emp{
 				void output();
 				void total ();   
                           };
-};
+            };
 void emp::input()
 {
 	cout<<"enter any empno and ename";
