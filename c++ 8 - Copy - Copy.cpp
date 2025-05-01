@@ -15,5 +15,5 @@ int main(){
         total=m1+m2+m3;
 	 per=total/3;
 	 cout<<"your total per name roll"<<per<<endl<<endl<<total<<endl<<name<<endl<<roll; 
-	 return 0;	
+	return 0;	
 }
