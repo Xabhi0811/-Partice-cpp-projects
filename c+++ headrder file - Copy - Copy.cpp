@@ -18,7 +18,6 @@ void create()
 				cout<<"enter the text to store";
 				fflush(stdin);
 				gets(str);
-				//cin.getline(str,80);
 				abc<<str<<endl;
 				cout<<"would you like to cout....(y/n)";
 				fflush(stdin);
