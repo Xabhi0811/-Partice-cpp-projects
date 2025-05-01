@@ -6,4 +6,5 @@ int main(){
 	cin>>a;
 	b=a*a*a;
 	cout<<b;
-	return 0;}
+	return 0;
+}
