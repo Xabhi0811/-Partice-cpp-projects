@@ -7,4 +7,5 @@ int main(){
 	m=a<=b?a:b;
 	cout<<"max num is "<<a;cout<<"max num is "<<b;
 	return 0;
+	
 }
