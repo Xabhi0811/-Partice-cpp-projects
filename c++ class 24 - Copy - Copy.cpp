@@ -19,4 +19,5 @@ int main()
   cout<<"7. float "<<sizeof(*fp)<<endl; 
   cout<<"8. double "<<sizeof(*dp)<<endl;
   getch();
-  return 0 ;}
+  return 0 ;
+}
