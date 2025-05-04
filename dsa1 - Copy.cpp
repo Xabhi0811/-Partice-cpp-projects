@@ -16,5 +16,6 @@ int main(){
 	{
 		cout<<"num is ";
 	}
+
 	return 0;
 }
