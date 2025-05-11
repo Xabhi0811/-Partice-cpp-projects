@@ -15,8 +15,7 @@ class std{
 	 		public:
 	 			void input();
 	 			void out();
-	 			 void cal();
-		 };
+	 			 void cal(); };
 };
  void std::input()
  {
