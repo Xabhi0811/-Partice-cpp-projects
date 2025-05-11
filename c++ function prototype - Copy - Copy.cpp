@@ -28,5 +28,4 @@ int main(){
 	s.input();
 	s.output();
 	return 0;
-
 }
