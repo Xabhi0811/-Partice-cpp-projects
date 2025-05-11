@@ -41,7 +41,7 @@ public:
      void bank_bal();
      void menu();
  };
-       bank b[size]; //global objects array type
+       bank b[size]; 
 
        bank::bank()
        {
