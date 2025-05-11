@@ -19,7 +19,6 @@ public:
     }
 };
 
-
 int main() {
     Average::calculateAverage();
     return 0;
