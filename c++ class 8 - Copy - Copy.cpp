@@ -17,7 +17,6 @@ class emp{
 		      			void output();
 		      			void cal();
 		      			
-		      		
 			 };
                 	};                
 			 void emp::input()
@@ -55,5 +54,5 @@ class emp{
 					sal m;
 			        	e.input(); m.input();
 			        	e.output(); m.output();
-			        	return 0;0
-				   }
+			        	returnÂ 0;0
+				Â Â Â }
