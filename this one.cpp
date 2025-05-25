@@ -21,6 +21,6 @@ int main ()
 		display(n);
 		return 0;
 		
-	}
+	   }
 	
 }
