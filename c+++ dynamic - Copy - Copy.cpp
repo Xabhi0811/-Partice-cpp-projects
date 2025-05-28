@@ -16,8 +16,7 @@ int main(){
 		{
 			cout<<"enter the elements";
 			cin>>p[i];
-
-			
+	
 		}
 		for(i=0;i<n;i++)
 		{
