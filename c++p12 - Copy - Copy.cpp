@@ -12,4 +12,5 @@ int main(){
 	w=d/7;
 	cout<<"year"<<y<<"month"<<m<<"week"<<w<<"days"<<d<<endl;
 	return 0;
+            
 }
