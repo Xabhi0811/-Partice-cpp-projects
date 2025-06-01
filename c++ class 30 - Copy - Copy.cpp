@@ -24,6 +24,7 @@ int main()
 	int n,i;
 	char ch;
 	do{
+		
 		cout<<"enter total student";
 		cin>>n;
 		student*p=new student[n];
