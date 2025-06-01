@@ -11,7 +11,7 @@ int main ()
 		{
 			printf("lenght=%d\n",i);
 			
-		}
+		 }
 	
    }
 int main ()
