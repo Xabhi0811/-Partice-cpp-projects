@@ -13,7 +13,7 @@ int main ()
 			
 		}
 	
-}
+   }
 int main ()
 	{
 		char n[20];
