@@ -4,6 +4,7 @@ class hello
 {  
     public:  
 	void abc()
+
 	{    
 		cout<<"abc function of base class"<<endl;    
     }      
