@@ -11,7 +11,6 @@ int main (){
 			printf("%d*%d\n",i,n,t);
 
 			
-			
 		}
 		printf("like to cont..(Y/N)");
 		scanf("%c",&ch);	
