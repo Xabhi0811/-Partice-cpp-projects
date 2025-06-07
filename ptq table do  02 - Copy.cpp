@@ -9,6 +9,7 @@ int main (){
 		{
 			t=n*i;
 			printf("%d*%d\n",i,n,t);
+
 			
 		}
 		printf("like to cont..(Y/N)");
