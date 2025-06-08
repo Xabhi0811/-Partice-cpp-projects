@@ -5,7 +5,6 @@ printf("enter any no");
 scanf("%d",&a);
 b=a*a;
 printf("squre of a num=>%d\n",b);
-
 }
 void max 3()
 {
