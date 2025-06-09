@@ -16,7 +16,6 @@ class emp{
 		      			void input();
 		      			void output();
 				        void cal();
-		      			
 			         };
                 	};                
 			 void emp::input()
