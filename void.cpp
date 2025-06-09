@@ -20,7 +20,6 @@ printf("max no=>%d\n",d);
 }
 void sum ()
 {
-	
 	int a,b,c;
 	printf("enter 2 no");
 	scanf("%d %d",&a,&c);
