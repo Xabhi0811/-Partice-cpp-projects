@@ -15,7 +15,7 @@ class emp{
 		      		public:
 		      			void input();
 		      			void output();
-		      			void cal();
+				void cal();
 		      			
 			 };
                 	};                
