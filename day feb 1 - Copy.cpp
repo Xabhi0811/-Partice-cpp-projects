@@ -11,7 +11,7 @@ int main()
 	printf("\nsqure of num");
 	scanf("%d",&op);
 
-switch(op){
+       switch(op){
 	
 	case 1:
 		printf("enter any two num");
@@ -54,45 +54,6 @@ switch(op){
 					goto start;
 						return 0;}*/
 						  
- /*# include<stdio.h>                                       
-int main(){
-	char ch;
-	printf("enter any character");
-	ch=getchar();
-	printf(" entered character is %c\n");
-	putchar(ch);
-	//put ch(ch);
-	return 0;
-}*/
 
-
- /*#include<stdio.h>
-int main(){
-	int a,b;
-	printf("enter any number");
-	scanf("%d",&a);
-	if(a<=10)
-	{
-		b=a*a;
-		printf("square =%d\n",b);
-	}
-	return 0;
-	}*/
 	
-	#include<stdio.h>
-	int main(){ 
-		 int i=1,n,f=1;
-		 {
-		 	printf("enter any num");
-		 	scanf("%d",n);
-		 	{
-		 		while(i<=n)
-		 		f=f*1;
-		 		i++;
-		 		}
-		 		printf("factorial of a num =%d\n",f);
-		 }
-		  return 0;
-		}
 	
-
