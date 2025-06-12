@@ -17,7 +17,6 @@
 	total=m1+m2+m3;
 	per=total/3;
 	printf("Total = %.3f Per = %.2f\n",total,per);
-	
 
 	   return 0;
 	   }
