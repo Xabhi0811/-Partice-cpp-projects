@@ -19,5 +19,6 @@
 	printf("Total = %.3f Per = %.2f\n",total,per);
 	 
 
+	 
 	   return 0;
 	   }
