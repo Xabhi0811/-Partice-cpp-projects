@@ -19,6 +19,7 @@ inline void add::disp()
 }
 int main()
 {
+	
 	add a;
 	a.input();
 	a.disp();
