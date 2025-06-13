@@ -11,6 +11,7 @@ int main()
     scanf("%s",n[i]);
   }
   for(i=0;i<5;i++)
+    
   {
     printf("%s\n",n[i]);
   }
