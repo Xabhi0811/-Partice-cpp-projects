@@ -7,7 +7,7 @@ class sum{
 			void input();
 			void output();
 			void cal();
-		};
+		      };
 		void sum::input()
 		{
 			cout<<"enter any two num";
