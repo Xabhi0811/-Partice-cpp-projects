@@ -21,6 +21,6 @@ int main()
 {
 	add a;
 	a.input();
-	a. disp();
+	a.disp();
 	return 0;
 }
