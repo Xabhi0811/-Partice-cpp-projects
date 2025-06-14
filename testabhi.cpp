@@ -10,5 +10,5 @@
  	clog<<"all the best for your future"<<endl;
  	cout<<"keep away from error"<<endl;
  	return 0;
- }
+  }
  
