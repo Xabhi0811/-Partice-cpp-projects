@@ -14,7 +14,7 @@ int main ()
 		 }
    }
 int main ()
-	{
+	 {
 		char n[20];
 		printf("enter any times ");
 		scanf("%s",n);
