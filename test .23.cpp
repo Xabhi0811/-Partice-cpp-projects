@@ -11,6 +11,7 @@
 	scanf("%d",&op);
 	switch (op)
 	     {
+		     
 		case 1:
 			printf("enter any two nums");
 			scanf("%d %d",&a,&b);
