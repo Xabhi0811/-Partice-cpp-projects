@@ -16,7 +16,7 @@ class std{
 	 			void input();
 	 			void out();
 	 			 void cal(); };
-};
+ };
  void std::input()
  {
  	cout<<"enter any num and name";
