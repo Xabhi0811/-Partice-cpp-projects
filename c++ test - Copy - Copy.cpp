@@ -16,7 +16,7 @@ class sum{
 		void sum::cal()
 		{
 			c=a+b;
-			
+		
 		}
 		void sum::output()
 		{
