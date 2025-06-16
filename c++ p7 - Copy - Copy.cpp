@@ -12,3 +12,4 @@ int main(){
 	cin>>per;
 	return 0;
 }
+
