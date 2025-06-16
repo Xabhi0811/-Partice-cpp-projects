@@ -22,6 +22,6 @@ cube();
 squre();
 sswitcn
 	
-	return 0;
+return 0;
 	
 }
