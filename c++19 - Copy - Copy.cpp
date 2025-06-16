@@ -17,7 +17,6 @@ void cube()
  	
  }
  
-
 int main(){
 cube();
 squre();
