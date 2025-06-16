@@ -29,4 +29,5 @@ class sum{
 		 	s.input();
 		 	s.output();
 		 	return 0;
+		 
 		 }
