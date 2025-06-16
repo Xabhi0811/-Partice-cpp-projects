@@ -18,8 +18,7 @@ inline void add::disp()
      cout<<"sum of two num is "<<c<<endl;
 }
 int main()
-{
-	
+{	
 	add a;
 	a.input();
 	a.disp();
