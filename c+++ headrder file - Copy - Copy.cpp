@@ -40,7 +40,6 @@ void display()
 while(!pqr.eo())
 {
   pqr.get(ch);
-  //cout<<ch;
   cout.put(ch);
 }
 pqr.close();
