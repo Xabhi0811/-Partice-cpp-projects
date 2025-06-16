@@ -22,7 +22,8 @@ void create()
 				cout<<"would you like to cout....(y/n)";
 				fflush(stdin);
 				cin>>ch;
-			} while(ch=='y'||ch=='Y');
+			} 
+				while(ch=='y'||ch=='Y');
 			abc.close();
 		}
 }
