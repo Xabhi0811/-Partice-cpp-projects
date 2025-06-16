@@ -7,4 +7,4 @@ int main(){
 	b=a*a*a;
 	cout<<b;
 	return 0;
-}
+ }
