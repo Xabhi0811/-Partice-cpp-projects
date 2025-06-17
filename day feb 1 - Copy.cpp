@@ -52,7 +52,8 @@ int main()
 					scanf("%c",&ch);
 					if(ch=='Y'||ch=='y')
 					goto start;
-						return 0;}*/
+						return 0;
+}
 						  
 
 	
