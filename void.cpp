@@ -53,4 +53,4 @@ printf("4.table of a no");
 printf("5.exit");
 printf("enter your choise");
 scanf("%d",&op);
-sy
+
