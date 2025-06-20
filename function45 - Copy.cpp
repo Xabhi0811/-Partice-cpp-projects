@@ -18,6 +18,7 @@ class hi: public hello
 };  
 int main() 
 {  
+	
    hi h;    
    h.abc();  
    return 0;  
