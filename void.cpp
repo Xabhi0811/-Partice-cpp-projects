@@ -1,7 +1,7 @@
 #include<stdio.h>
 void squre()
 {
-	int a,b;
+int a,b;
 printf("enter any no");
 scanf("%d",&a);
 b=a*a;
