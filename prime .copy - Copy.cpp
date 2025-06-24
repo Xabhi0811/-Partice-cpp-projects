@@ -8,8 +8,8 @@ int main (){
 	
 		if(n==0)
 		printf ("it is prime no ");
-		/*else 
-		print("it is not prime ");*/
+		else 
+		print("it is not prime ");
 		else if (n==1)
 		 printf (" it is prime no");
 	
