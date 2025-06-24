@@ -9,6 +9,7 @@ int main (){
 		if(n%i==0)
 		{
 			
+			
 			z=1;
 			break;
 		}
