@@ -9,5 +9,4 @@ int main(){
 	cout<<"enter your marks";
 	cin>>m1>>m2>>m3;
 	
-	
 }
