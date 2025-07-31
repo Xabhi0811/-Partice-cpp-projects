@@ -15,7 +15,7 @@ void show (int *p,int n)
 		printf("enter %d element ",i);
 		scanf("%d",&a[i]);
 		
-	} 
+	   } 
 	show(&a[0],n);
 	return 0;
 	
