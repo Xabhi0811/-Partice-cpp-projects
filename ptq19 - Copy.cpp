@@ -24,7 +24,7 @@ int main()
 	default:
 	printf("it is a consonent");
 	break;
-	}//switch
+	}
 }
 else 
 printf("itis not an alphabet");
