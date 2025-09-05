@@ -52,5 +52,6 @@ void emp::input()
 		e input; s input;
 		e output; e output;
 		return 0;
+
 	}
 	
