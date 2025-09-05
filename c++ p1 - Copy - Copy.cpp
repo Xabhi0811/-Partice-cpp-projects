@@ -10,4 +10,5 @@ int main()
 	c=a*b;
 	cout<<"mutli="<<c<<endl;
 	return 0;
+	
 }
