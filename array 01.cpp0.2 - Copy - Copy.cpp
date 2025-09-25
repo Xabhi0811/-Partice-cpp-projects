@@ -8,6 +8,7 @@ for (i=0;i<10;i++)
 } 
 for(i=0;i<10;i++)
  {
+	 
 printf("which nums u want seacher");
  scanf("%d",&n);  
 if(a[i]==n)
