@@ -4,6 +4,7 @@ int main (){
 	printf("enter your no u betichod");
 	scanf ("%d",&n);
 for (i=2;n/i;){
+	
 if(n==1){
 printf (" it is not  prime");
 break;}
