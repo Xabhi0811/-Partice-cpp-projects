@@ -11,3 +11,4 @@ else
 printf(" it is prime ");}
   return 0;
 }
+
