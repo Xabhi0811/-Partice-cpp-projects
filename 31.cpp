@@ -2,7 +2,7 @@
 using namespace std;
 
 void doubleValue(int &ref) {
-    ref = ref * 2;   // directly modify the variable using reference
+    ref = ref * 2;  
 }
 
 int main() {
@@ -12,4 +12,5 @@ int main() {
     cout << x << endl; // print doubled value
     return 0;
 }
+
  
