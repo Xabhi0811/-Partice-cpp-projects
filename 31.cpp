@@ -9,10 +9,11 @@ int main() {
     int x;
     cin >> x;       
     doubleValue(x);  
-    cout << x << endl; // print doubled value
+    cout << x << endl;
     return 0;
 }
 
  
+
 
 
