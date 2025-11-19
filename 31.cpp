@@ -8,10 +8,11 @@ void doubleValue(int &ref) {
 int main() {
     int x;
     cin >> x;       
-    doubleValue(x);   // pass variable directly (no & needed here)
+    doubleValue(x);  
     cout << x << endl; // print doubled value
     return 0;
 }
 
  
+
 
