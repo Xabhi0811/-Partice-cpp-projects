@@ -7,10 +7,11 @@ void doubleValue(int &ref) {
 
 int main() {
     int x;
-    cin >> x;         // input integer
+    cin >> x;       
     doubleValue(x);   // pass variable directly (no & needed here)
     cout << x << endl; // print doubled value
     return 0;
 }
 
  
+
