@@ -1,7 +1,3 @@
-/*
-check word is alphabet
-
-*/
 
 #include<stdio.h>
 void check_alphabet(char ch)
