@@ -13,7 +13,6 @@ public:
     }
 };
 
-// Insert a new node in BST
 Node* insert(Node* root, int val) {
     if (root == NULL)
         return new Node(val);
@@ -26,19 +25,17 @@ Node* insert(Node* root, int val) {
     return root;
 }
 
-// Find Lowest Common Ancestor
 Node* findLCA(Node* root, int n1, int n2) {
     if (root == NULL) return NULL;
 
-    // If both nodes are smaller → LCA in left subtree
+   
     if (n1 < root->data && n2 < root->data)
         return findLCA(root->left, n1, n2);
 
-    // If both nodes are larger → LCA in right subtree
     if (n1 > root->data && n2 > root->data)
         return findLCA(root->right, n1, n2);
 
-    // Otherwise, current node is LCA
+
     return root;
 }
 
@@ -64,3 +61,4 @@ int main() {
 
     return 0;
 }
+
