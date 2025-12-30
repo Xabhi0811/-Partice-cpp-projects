@@ -4,7 +4,7 @@ using namespace std;
 int knapsack(int W, int wt[], int val[], int n) {
     int dp[n + 1][W + 1];
 
-    // Build table dp[][] in bottom-up manner
+  
     for (int i = 0; i <= n; i++) {
         for (int w = 0; w <= W; w++) {
             if (i == 0 || w == 0)
@@ -30,3 +30,4 @@ int main() {
 
     return 0;
 }
+
