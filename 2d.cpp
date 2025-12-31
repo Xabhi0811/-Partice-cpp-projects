@@ -6,7 +6,7 @@ int main() {
     cout << "Enter dimensions (X Y Z): ";
     cin >> x >> y >> z;
 
-    int matrix[10][10][10];  // fixed-size 3D array (you can adjust as needed)
+    int matrix[10][10][10];  
     int evenCount = 0, oddCount = 0;
 
     cout << "Enter elements:\n";
@@ -38,3 +38,4 @@ int main() {
 
     return 0;
 }
+
