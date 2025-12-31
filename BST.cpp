@@ -10,7 +10,7 @@ int main()
     printf("Enter any string ");
     scanf("%s",n[i]);
   }
-  //display
+
   for(i=0;i<5;i++)
   {
     printf("%s\n",n[i]);
@@ -18,3 +18,4 @@ int main()
   getch();
   return(0);
 }
+
