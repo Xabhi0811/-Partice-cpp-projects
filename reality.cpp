@@ -9,7 +9,7 @@ double accuracy(const vector<int>& y, const vector<int>& y_pred) {
     return (double)correct / y.size();
 }
 
-// Dummy model: predicts majority class
+
 vector<int> trainAndPredict(const vector<vector<int>>& X,
                             const vector<int>& y,
                             const vector<int>& features) {
@@ -58,3 +58,4 @@ int main() {
     cout << "Selected feature order: ";
     for (int f : selected) cout << f << " ";
 }
+
