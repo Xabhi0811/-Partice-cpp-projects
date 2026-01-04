@@ -4,7 +4,7 @@ int main()
 {
   char n[5][20];
   int i=0;
-  //input
+
   for(i=0;i<5;i++)
   {
     printf("Enter any string ");
@@ -18,4 +18,5 @@ int main()
   getch();
   return(0);
 }
+
 
