@@ -1,20 +1,22 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-	int num;
-	cout<<"enter any num";
-	cin>>num;
-	if( num ='A','B','C','D','E','F')
-	{
-		cout<<" capital char";
-	}
-	else if( num ='a','b','c','d','e','f')
-	{
-		cout<<"small num";
-	}
-	else(num= '1','2','3','4','5');
-	{
-		cout<<"num is ";
-	}
-	return 0;
+
+int unboundedKnapsack(int W, vector<int>& wt, vector<int>& val) {
+    vector<int> dp(W+1, 0);
+
+    for(int w = 0; w <= W; w++) {
+        for(int i = 0; i < wt.size(); i++) {
+            if(wt[i] <= w)
+                dp[w] = max(dp[w], val[i] + dp[w - wt[i]]);
+        }
+    }
+    return dp[W];
+}
+
+int main() {
+    vector<int> wt = {2, 4, 6};
+    vector<int> val = {5, 11, 13};
+    int W = 10;
+
+    cout << unboundedKnapsack(W, wt, val);
 }
