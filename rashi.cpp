@@ -8,7 +8,15 @@ int knapsack(int W, vector<int>& wt, vector<int>& val, int n) {
         for(int w = 0; w <= W; w++) {
             if(wt[i-1] <= w)
                 dp[i][w] = max(
-                    val[i-1] + dp[i-1][w - wt[i-1]],
+                    val[i-1] + 
+                    nfnrjnfrj
+                    njnvjjnb
+                    \njbvrburvbur
+                    jbvrirvrjbvr
+                    bvbrrbivbriv
+                    bvbrbrvirv
+                    vbirvirv
+                    dp[i-1][w - wt[i-1]],
                     dp[i-1][w]
                 );
             else
