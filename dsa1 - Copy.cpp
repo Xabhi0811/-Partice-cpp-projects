@@ -19,4 +19,4 @@ int main() {
     int W = 10;
 
     cout << unboundedKnapsack(W, wt, val);
-}
+} 

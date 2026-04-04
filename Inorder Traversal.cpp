@@ -26,8 +26,6 @@ int main() {
     root->left = createNode(2);
     root->right = createNode(3);
     root->left->left = createNode(4);
-   djfjfr
-
     cout << "Inorder Traversal: ";
     inorder(root);
 }

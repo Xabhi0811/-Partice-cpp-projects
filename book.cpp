@@ -6,7 +6,7 @@ using namespace std;
 bool ispossible(int arr , int n , int m , int mid ){
     int studentcount = 1;
     int pages = 0;
-    for (int i = 0 ; i< n; i ++){
+    for (int i = 0 ; i< n; i ++){ 
         if(pages+arr[i]<=mid)
         {
         pages+= arr[i];
