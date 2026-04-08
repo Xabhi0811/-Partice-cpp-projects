@@ -11,6 +11,10 @@ void bfs(int start, vector<int> adj[], int n) {
 
     cout << "BFS Traversal: ";
     while (!q.empty()) {
+      
+      
+      
+      
         int node = q.front();
         q.pop();
         cout << node << " ";
