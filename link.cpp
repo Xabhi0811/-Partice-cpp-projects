@@ -12,6 +12,10 @@ class node{
 	}
 };
 
+
+
+
+
 class douuble{
 
 node * head ;
