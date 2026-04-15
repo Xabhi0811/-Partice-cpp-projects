@@ -16,6 +16,12 @@ class node{
 
 
 
+
+
+
+jkjkdjke
+NO_COMPETING_THREAD_BEGIN
+
 class douuble{
 
 node * head ;
