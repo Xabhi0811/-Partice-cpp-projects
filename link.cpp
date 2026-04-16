@@ -19,6 +19,13 @@ class node{
 
 
 
+
+
+
+
+
+
+
 jkjkdjke
 NO_COMPETING_THREAD_BEGIN
 
