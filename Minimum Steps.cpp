@@ -13,6 +13,10 @@ int minSteps(int n) {
     return dp[n];
 }
 
+
+
+
+
 int main() {
     int n = 10;
     cout << "Minimum steps to reduce " << n << " to 1: " << minSteps(n);
