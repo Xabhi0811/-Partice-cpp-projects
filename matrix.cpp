@@ -15,6 +15,10 @@ private:
         return r * cols + c;
     }
 
+
+
+
+    
 public:
 
     Matrix(int r, int c) : rows(r), cols(c), data(r * c) {
