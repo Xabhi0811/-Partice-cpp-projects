@@ -10,6 +10,11 @@ class student {
 		void output();
 		void cal();
 };
+
+
+
+
+
 void student::input(){
 	cout<<"enter any num roll, name, m1,m2,m3";
 	cin>>roll>>name>>m1>>m2>>m3;
