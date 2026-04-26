@@ -9,6 +9,11 @@ int main() {
     int matrix[10][10][10];  // fixed-size 3D array (you can adjust as needed)
     int evenCount = 0, oddCount = 0;
 
+
+
+
+
+    
     cout << "Enter elements:\n";
     for (int i = 0; i < x; i++) {
         for (int j = 0; j < y; j++) {
