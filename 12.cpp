@@ -7,6 +7,10 @@ struct Node {
     Node(int val) : data(val), next(nullptr) {}
 };
 
+
+
+
+
 class LinkedList {
 public:
     Node* head;
