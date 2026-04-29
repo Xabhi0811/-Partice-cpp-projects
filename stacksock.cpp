@@ -16,6 +16,8 @@ int main(){
     }
     s.push(i);
  }
+
+ 
  for(int val : ans){
     count<<val<<" ";
  }
