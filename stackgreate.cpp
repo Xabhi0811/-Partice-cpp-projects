@@ -3,8 +3,8 @@
  stack<int>s;
  vector<int, int> ans;
 
- for(int i = s.size()-1; i >=0; i--){
-    while(s.size()>0 && s.top<=arr[i]){
+ for(int i = 0; i n; i++){
+    while(s.size()>0 && s.top=>arr[i]){
         s.pop();
     }
 
