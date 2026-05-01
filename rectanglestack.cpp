@@ -37,6 +37,7 @@ class solution{
         int currArea = height[i]*wight;
         ans = max(ans, currArea);
 
+        
     }
     return ans ;
 }
