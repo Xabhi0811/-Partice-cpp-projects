@@ -7,6 +7,8 @@ int main() {
     stack<char> s;
 
     for (char c : str)
+
+    
         s.push(c);
 
     cout << "Reversed String: ";
