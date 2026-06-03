@@ -8,6 +8,8 @@
         s.pop();
     }
 
+    
+
     if(s.empty()) 
      arr[i]= -1;
  }
