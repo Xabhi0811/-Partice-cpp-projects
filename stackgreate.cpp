@@ -3,6 +3,11 @@
  stack<int>s;
  vector<int, int> ans;
 
+
+
+
+
+ 
  for(int i = 0; i n; i++){
     while(s.size()>0 && s.top=>arr[i]){
         s.pop();
