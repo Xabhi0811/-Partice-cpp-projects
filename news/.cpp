@@ -7,7 +7,8 @@ void show (int *p,int n)
 		printf("value %d address %u\n",*p,p);
 		printf("%d\n",*p);
 		s=s+*p;
-		p++;		
+		p++;	
+		
 	} printf("enter total element");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
