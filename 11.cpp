@@ -7,6 +7,7 @@ struct Node {
     Node(int val) : data(val), next(nullptr) {}
 };
 
+
 int getLength(Node* head) {
     int len = 0;
     while (head) {
