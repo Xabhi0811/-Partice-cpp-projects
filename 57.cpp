@@ -15,6 +15,7 @@ int evaluatePostfix(string exp) {
                 case '+': s.push(val1 + val2); break;
                 case '-': s.push(val1 - val2); break;
                 case '*': s.push(val1 * val2); break;
+                
                 case '/': s.push(val1 / val2); break;
             }
         }
