@@ -17,6 +17,7 @@ int getLength(Node* head) {
     return len;
 }
 
+
 Node* getIntersection(Node* head1, Node* head2) {
     int len1 = getLength(head1);
     int len2 = getLength(head2);
