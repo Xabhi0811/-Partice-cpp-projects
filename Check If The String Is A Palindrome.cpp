@@ -16,7 +16,5 @@
         }
          return cout
     }
-
-  
     
  }
