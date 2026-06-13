@@ -12,6 +12,7 @@ public:
     }
 };
 
+
 // Function to reverse linked list
 Node* reverseList(Node* head) {
     Node* prev = NULL;
