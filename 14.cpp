@@ -12,6 +12,7 @@ public:
     Node* head;
     LinkedList() : head(nullptr) {}
 
+
     void insertEnd(int val) {
         Node* newNode = new Node(val);
         if (!head) {
