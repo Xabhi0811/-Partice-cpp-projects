@@ -17,6 +17,7 @@ public:
         return true;
     }
 
+
     int pop() {
         if (top < 0) {
             cout << "Stack Underflow\n";
