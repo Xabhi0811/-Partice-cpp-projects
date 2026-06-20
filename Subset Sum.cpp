@@ -11,7 +11,7 @@ bool subsetSum(int arr[], int n, int sum) {
 
     for (int i=1; i<=n; i++) {
 
-        
+    
 
 
         
