@@ -13,7 +13,6 @@ bool subsetSum(int arr[], int n, int sum) {
 
     
 
-
         
         for (int j=1; j<=sum; j++) {
             if (arr[i-1] <= j)
