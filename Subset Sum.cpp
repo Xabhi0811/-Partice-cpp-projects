@@ -10,7 +10,6 @@ bool subsetSum(int arr[], int n, int sum) {
     for (int j=1; j<=sum; j++) dp[0][j] = false;
 
     for (int i=1; i<=n; i++) {
-
     
         
         for (int j=1; j<=sum; j++) {
