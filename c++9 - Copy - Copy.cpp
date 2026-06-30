@@ -6,6 +6,7 @@ int main(){
       cout<<"enter your pno";
       cin>>pno;
       cout<<"enter your qty";
+	
       cin>>qty;
       cout<<"product price="<<price<<endl;
       total= price*qty;
