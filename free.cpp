@@ -9,7 +9,6 @@ public:
         }
         if(ans == nums[i])
         free++;
-
         else{
             free--;
         }
