@@ -1,15 +1,57 @@
-#include <iostream>
-using namespace std;
+var solveNQueens = function(n) {
+    const result = [];
 
-void doubleValue(int &ref) {
-    ref = ref * 2;   // directly modify the variable using reference
-}
+    const board = Array.from(
+        { length: n },
+        () => Array(n).fill(".")
+    );
 
-int main() {
-    int x;
-    cin >> x;         // input integer
-    doubleValue(x);   // pass variable directly (no & needed here)
-    cout << x << endl; // print doubled value
-    return 0;
-}
- 
+    const cols = new Set();
+    const diagonals1 = new Set();
+    const diagonals2 = new Set();
+
+    function backtrack(row) {
+        // All queens are placed
+        if (row === n) {
+            result.push(
+                board.map(r => r.join(""))
+            );
+            return;
+        }
+
+        for (let col = 0; col < n; col++) {
+            const diagonal1 = row - col;
+            const diagonal2 = row + col;
+
+            // Check whether this position is safe
+            if (
+                cols.has(col) ||
+                diagonals1.has(diagonal1) ||
+                diagonals2.has(diagonal2)
+            ) {
+                continue;
+            }
+
+            // Place queen
+            board[row][col] = "Q";
+
+            cols.add(col);
+            diagonals1.add(diagonal1);
+            diagonals2.add(diagonal2);
+
+            // Move to next row
+            backtrack(row + 1);
+
+            // Backtrack: remove queen
+            board[row][col] = ".";
+
+            cols.delete(col);
+            diagonals1.delete(diagonal1);
+            diagonals2.delete(diagonal2);
+        }
+    }
+
+    backtrack(0);
+
+    return result;
+};
