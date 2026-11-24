@@ -28,6 +28,7 @@ int main() {
                     oddCount++;
             }
         }
+        
     }
 
     cout << "\nElements of 3D Matrix:\n";
